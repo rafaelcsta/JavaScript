@@ -28,4 +28,4 @@ var turma = 1;
 
 string
 bolean
-float
+number
