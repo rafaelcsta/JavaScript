@@ -23,8 +23,11 @@ um valor de forma insubstituível.
 ##### Tipos Primitivos
 
 var nomeDoEstudante = "Rafael";
+
 var status = true;
+
 var hub = "SC";
+
 var turma = 1;
 
 string
