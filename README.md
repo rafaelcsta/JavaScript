@@ -5,3 +5,4 @@ No console do chrome de uma index.html
 
 ##### Definindo uma variável. (podemos usar var ou let)
 ##### var tituloDoConteudo = "Variáveis e Constantes";
+##### tituloDoConteudo (Exibirá o valor armazenado na variável)
