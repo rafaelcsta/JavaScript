@@ -55,3 +55,12 @@ Operadores aritmeticos, Comparacao, Logicos e Estrutura Condicional:
 ###### ** = exponenciacao
 ###### % = resto
 
+Operadores de Comparacao:
+
+###### > maior que
+###### < menor que
+###### >= maior ou igual
+###### <= menor ou igual
+###### === comparador de igualdade
+###### !== comparador de desigualdade
+Ex: 1 === 1; retorno True ou 1 !== 1; retorno False
