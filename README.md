@@ -33,3 +33,6 @@ var turma = 1;
 string
 bolean
 number
+
+###### typeof "dado"; ou typeof nomeDaVar;
+typeof turma;
