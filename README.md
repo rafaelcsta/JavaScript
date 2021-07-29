@@ -20,7 +20,8 @@ Ao tentar atribuir um novo valor a uma constante
 receberemos um erro, porque uma constante armazena
 um valor de forma insubstituível.
 
-##### Tipos Primitivos;
+##### Tipos Primitivos
+
 var nomeDoEstudante = "Rafael";
 var status = true;
 var hub = "SC";
