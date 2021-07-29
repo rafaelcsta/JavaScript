@@ -64,3 +64,13 @@ Operadores de Comparacao:
 ###### === comparador de igualdade
 ###### !== comparador de desigualdade
 Ex: 1 === 1; retorno True ou 1 !== 1; retorno False
+
+###### Operadores Logicos:
+E e OU
+
+###### No contexto de E:
+###### Se todas as afirmacoes anteriores forem verdadeiras a ultima tambem sera verdadeira.
+###### Se uma das duas afirmacoes anteriores for falsa, a terceira tambem sera falsa.
+###### Se as duas anteriores forem falsas a ultima tambem sera falsa.
+
+
