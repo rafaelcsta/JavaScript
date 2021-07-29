@@ -3,5 +3,5 @@
 
 No console do chrome de uma index.html
 
-Definindo uma variável. (podemos usar var ou let)
-var tituloDoConteudo = "Variáveis e Constantes";
+##### Definindo uma variável. (podemos usar var ou let)
+##### var tituloDoConteudo = "Variáveis e Constantes";
