@@ -36,3 +36,4 @@ number
 
 ###### typeof "dado"; ou typeof nomeDaVar;
 typeof turma;
+
