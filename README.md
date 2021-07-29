@@ -14,3 +14,8 @@ JS define as variáveis usando Camel Case, que refere-se a forma
 de alternar letras maiúsculas e minúsculas no nome da variável.
 Que ao final apresenta semelhança com ondulações presentes nas costas de um camelo.
 Além disso não podemos usar "_" entre_as_palavras ou iniciar com números o nome das variáveis.
+
+##### const duracaoMaximaDoCurso = "12 Meses";
+Ao tentar atribuir um novo valor a uma constante
+receberemos um erro, porque uma constante armazena
+um valor de forma insubstituível.
