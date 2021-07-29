@@ -46,3 +46,12 @@ typeof turma;
 ###### iniciar e asterisco barra
 ###### para encerrar*/
 
+Operadores aritmeticos, Comparacao, Logicos e Estrutura Condicional:
+
+###### + = adicao
+###### - = subtracao
+###### * = multiplicacao
+###### / = divisao
+###### ** = exponenciacao
+###### % = resto
+
