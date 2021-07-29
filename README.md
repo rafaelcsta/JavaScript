@@ -38,10 +38,11 @@ number
 typeof turma;
 
 ###### Comentarios JS:
-// Use comentarios iniciando a linha com duas barras para comentario de uma linha.
-/* para comentarios
-que excedem uma linha,
-use barra asterisco para
-iniciar e asterisco barra
-para encerrar*/
+###### // Use comentarios iniciando a linha com duas barras para comentario de uma linha.
+
+###### /* para comentarios
+###### que excedem uma linha,
+###### use barra asterisco para
+###### iniciar e asterisco barra
+###### para encerrar*/
 
