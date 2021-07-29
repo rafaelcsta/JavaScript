@@ -19,3 +19,13 @@ Além disso não podemos usar "_" entre_as_palavras ou iniciar com números o no
 Ao tentar atribuir um novo valor a uma constante
 receberemos um erro, porque uma constante armazena
 um valor de forma insubstituível.
+
+##### Tipos Primitivos;
+var nomeDoEstudante = "Rafael";
+var status = true;
+var hub = "SC";
+var turma = 1;
+
+string
+bolean
+float
