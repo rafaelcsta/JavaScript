@@ -69,8 +69,24 @@ Ex: 1 === 1; retorno True ou 1 !== 1; retorno False
 E e OU
 
 ###### No contexto de E:
+###### E = &&
 ###### Se todas as afirmacoes anteriores forem verdadeiras a ultima tambem sera verdadeira.
 ###### Se uma das duas afirmacoes anteriores for falsa, a terceira tambem sera falsa.
 ###### Se as duas anteriores forem falsas a ultima tambem sera falsa.
 
+var um = 1;
+var dois = 2;
+var DoisEhMaiorQueUm = dois > um;
+DoisEhMaiorQueUm
+...
 
+###### No contexto de OU:
+
+###### OU = ||, se uma das condicoes forem verdadeiras, o resultado sera verdadeiro, caso contrario a ultima sera falsa.
+
+var um = 1;
+var dois = 2;
+var tres = 3;
+
+var comparacao = um || dois !== tres; Retorna true
+...
