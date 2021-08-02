@@ -125,3 +125,4 @@ ver resultado...
 Estrutura de Repeticao com for:
 
 ###### var numero = 7; for (var contador = 1; contador <= 9; contador ++) { console.log(numero * contador)};
+###### for (var indice = 0; indice < listaDeNomes.length; indice ++) { mensagem = "Boas vindas, " + listaDeNomes[indice] + "!"; console.log(mensagem)};
