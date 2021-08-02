@@ -103,3 +103,6 @@ var comparacao = um || dois !== tres; Retorna true
 ###### if (notaDesafio >= 100) { console.log("Aprovado!"); } else { console.log("Reprovado!"); }
 ###### VM1671:1 Reprovado!
 ###### undefined
+
+###### var elementoA = 10;
+###### if (elementoA % 2 == 0) { resultado = "Par"; } else if (elementoA % 2 == 1){ resultado = "Impar"; }
