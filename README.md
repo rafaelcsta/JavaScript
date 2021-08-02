@@ -106,3 +106,12 @@ var comparacao = um || dois !== tres; Retorna true
 
 ###### var elementoA = 10;
 ###### if (elementoA % 2 == 0) { resultado = "Par"; } else if (elementoA % 2 == 1){ resultado = "Impar"; }
+
+Teste com estrutura de condicoes encadeadas
+
+###### if (anoDeNascimento <= 1945){ resultado = console.log("Geração Silenciosa!"); }
+###### else if (anoDeNascimento > 1945 && anoDeNascimento <= 1964){ resultado = console.log("Geração Booners!");}
+###### else if (anoDeNascimento > 1964 && anoDeNascimento <= 1980){ resultado = console.log("Geração X!");}
+###### else if (anoDeNascimento > 1980 && anoDeNascimento <= 1996){ resultado = console.log("Geração Millennials!");}
+###### else if (anoDeNascimento > 1996){ resultado = console.log("Geração Z!");}
+###### else { resultado = console.log("Algo deu errado, verifique e tente novamente!");}
