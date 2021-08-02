@@ -129,3 +129,10 @@ Estrutura de Repeticao com for:
 ###### var listaDeNomes = ["Janeiro", "Fevereiro", "Marco"];
 ###### for (var indice = 0; indice < listaDeNomes.length; indice ++) { mensagem = "Boas vindas, " + listaDeNomes[indice] + "!"; console.log(mensagem)};
 
+Estrutura de repeticao varrendo array.
+
+###### for (var indice = 0; indice < lista.length; indice++) {
+###### var mensagem = lista[indice];
+###### console.log(mensagem);
+###### }
+
