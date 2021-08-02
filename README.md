@@ -90,3 +90,16 @@ var tres = 3;
 
 var comparacao = um || dois !== tres; Retorna true
 ...
+
+### Estrutura Condicional If/Else
+
+###### var notaDesafio = 150;
+###### undefined
+###### if (notaDesafio >= 100) { console.log("Aprovado!"); } else { console.log("Reprovado!"); }
+###### VM1652:1 Aprovado!
+###### undefined
+###### notaDesafio = 90;
+###### 90
+###### if (notaDesafio >= 100) { console.log("Aprovado!"); } else { console.log("Reprovado!"); }
+###### VM1671:1 Reprovado!
+###### undefined
