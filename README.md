@@ -142,4 +142,7 @@ Estrutura de repeticao varrendo array.
 
 ###### for (var indice = 0; indice < strings.length; indice ++) { saida = strings[indice]; console.log(saida)};
 
-###### for (var indice = 0; indice < strings.length; strings[indice]++) { console.log(indice)};
+###### for (var indice = 0; indice < strings.length; strings[indice]++) { console.log(indice)}; //Nao usar!
+
+###### for(var contador = 0; contador < strings.length; contador++) {
+######    resultado.push(strings[contador]);}
