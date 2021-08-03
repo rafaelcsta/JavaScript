@@ -139,4 +139,5 @@ Estrutura de repeticao varrendo array.
 ###### var mesDoNascimento = ["Janeiro", "Fevereiro", "Marco"]
 ###### var conCatenadas =  mesDeNascimento[0] + mesDeNascimento[1] + mesDeNascimento[2]
 ###### conCatenadas.length;
-###### 
+
+###### for (var indice = 0; indice < strings.length; indice ++) { saida = strings[indice]; console.log(saida)};
