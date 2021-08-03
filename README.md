@@ -149,3 +149,8 @@ Estrutura de repeticao com for para converter strings em arrays.
 ###### for(var contador = 0; contador < strings.length; contador++) {
 ###### resultado.push(strings[contador]);}
 ###### resultado;
+
+Funcoes JavaScript:
+
+###### Funcoes sao blocos de codigos que encapsulam instrucoes que executam uma tarefa especifica
+###### Elas visam organizar e dividir de forma logica e objetiva partes e tarefas de nosso programa a fim de evitar redundancia
