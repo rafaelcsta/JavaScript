@@ -154,3 +154,7 @@ Funcoes JavaScript:
 
 ###### Funcoes sao blocos de codigos que encapsulam instrucoes que executam uma tarefa especifica
 ###### Elas visam organizar e dividir de forma logica e objetiva partes e tarefas de nosso programa a fim de evitar redundancia
+
+###### function nomeDaFuncao() {}
+###### function nomeDaFuncao(param1, param2) {
+###### }
