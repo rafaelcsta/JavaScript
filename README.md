@@ -141,3 +141,5 @@ Estrutura de repeticao varrendo array.
 ###### conCatenadas.length;
 
 ###### for (var indice = 0; indice < strings.length; indice ++) { saida = strings[indice]; console.log(saida)};
+
+###### for (var indice = 0; indice < strings.length; strings[indice]++) { console.log(indice)};
