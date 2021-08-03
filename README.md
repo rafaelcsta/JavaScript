@@ -158,3 +158,8 @@ Funcoes JavaScript:
 ###### function nomeDaFuncao() {}
 ###### function nomeDaFuncao(param1, param2) {
 ###### }
+###### // em seguida vem o codigo!
+
+###### /* comentarios 
+###### mais de uma 
+###### linha */
