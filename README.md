@@ -144,5 +144,7 @@ Estrutura de repeticao varrendo array.
 
 ###### for (var indice = 0; indice < strings.length; strings[indice]++) { console.log(indice)}; //Nao usar!
 
+Estrutura de repeticao com for para converter strings em arrays.
+
 ###### for(var contador = 0; contador < strings.length; contador++) {
 ######    resultado.push(strings[contador]);}
