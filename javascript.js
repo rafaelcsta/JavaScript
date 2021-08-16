@@ -587,6 +587,40 @@ function ehPalindromo(palavra) {
 
 // não altere as linhas abaixo
 }
+  
+  
+------------------------------------------------------------------------------------
+
+/*
+ * Complete a função 'converteTemperatura' abaixo.
+ *
+ * O retorno da função é uma variável do tipo FLOAT.
+ * Os parâmetros da função são os seguintes:
+ *  1. FLOAT temperatura
+ *  2. STRING escalaOrigem
+ *  3. STRING escalaDesejada
+ */
+
+function converteTemperatura(temperatura, escalaOrigem, escalaDesejada) {
+    // Escreva seu código aqui
+const celsiusToKelvin = temperatura + 273.15;
+const kelvinToCelsius = temperatura - 273.15;
+const celsToFahrenheit = (temperatura * 1.8) + 32;
+const fahrenheintToCelsius = (temperatura - 32) / 1.8;
+
+if (escalaOrigem == "celsius" && escalaDesejada == "kelvin") {
+    return celsiusToKelvin;
+}
+else if (escalaOrigem == "kelvin" && escalaDesejada == "celsius") {
+    return kelvinToCelsius;
+}
+else if (escalaOrigem == "celsius" && escalaDesejada == "fahrenheit") {
+    return celsToFahrenheit;
+}
+else if (escalaOrigem == "fahrenheit" && escalaDesejada == "celsius") {
+    return fahrenheintToCelsius;
+}
+}
 
 ---------------------------------------------------------------
 // https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback
