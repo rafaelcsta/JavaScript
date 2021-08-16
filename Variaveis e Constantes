@@ -1,0 +1,45 @@
+Editor de texto: Console do Google Chrome
+
+criando Variaveis:
+
+var tituloDoConteudo = "Variáveis e Constantes"; (Declarando variavel)
+let tituloDoConteudo = "Variáveis e Constantes"; (Declarando variavel)
+
+tituloDoConteudo = "Tipos Primitivos" (att valor da variavel)
+
+camel case (tituloDoConteudo) ou (camelCase) padronização de escrita usada em JS
+
+var titulodoconteudo = "confuso";
+var titulo do conteudo = "errado";
+var 1titulodoconteudo = "errado";
+var tituloDoConteudo = "certo";
+var tituloDoConteudo2 = "certo";
+
+Case Sensitive
+var titulo = "lowCase";
+var Titulo = "UpperCase";
+
+var hubDaTrybe = "Rio de Janeiro";
+
+Constantes:
+
+const duracaoMaximaDoCurso = "12 meses";
+undefined
+
+duracaoMaximaDoCurso
+"12 meses"
+
+duracaoMaximaDoCurso = "6 meses";
+VM505:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:22
+(anonymous) @ VM505:1
+
+Não é possivel atualizar (reatribuir) o valor de uma constante.
+
+--------------------------------------------------------------------
+
+Trybe HackerRank
+
+typeof dado; verifica o tipo do valor de entrada se é string, numerico, boolean
+
+
