@@ -651,6 +651,36 @@ return resultado;
 
 Urna
   
+/*
+ * Complete a função 'urna' abaixo.
+ *
+ * O retorno da função é uma variável do tipo CHARACTER.
+ * O parâmetro da função é a variável votos, do tipo CHARACTER_ARRAY.
+ */
+
+function urna(votos) {
+    // Escreva seu código aqui
+var quantidaDeElementosA = votos.filter (a => a === "A").length;
+console.log("Votos A = " + quantidaDeElementosA);
+var quantidaDeElementosB = votos.filter (b => b === "B").length;
+console.log("Votos B = " + quantidaDeElementosB);
+var quantidaDeElementosC = votos.filter (c => c === "C").length;
+console.log("Votos C = " + quantidaDeElementosC);
+
+if (quantidaDeElementosA > quantidaDeElementosB && quantidaDeElementosC < quantidaDeElementosA) {
+    return "A"
+}
+else if (quantidaDeElementosB > quantidaDeElementosA && quantidaDeElementosC < quantidaDeElementosB) {
+    return "B"
+} 
+else if (quantidaDeElementosC > quantidaDeElementosA && quantidaDeElementosB < quantidaDeElementosC) {
+    return "C"
+}
+else {
+    return;
+}
+}
+  
 
 
 ---------------------------------------------------------------
