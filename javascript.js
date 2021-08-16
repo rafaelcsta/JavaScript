@@ -591,6 +591,7 @@ function ehPalindromo(palavra) {
   
 ------------------------------------------------------------------------------------
 
+
 /*
  * Complete a função 'converteTemperatura' abaixo.
  *
@@ -607,18 +608,26 @@ const celsiusToKelvin = temperatura + 273.15;
 const kelvinToCelsius = temperatura - 273.15;
 const celsToFahrenheit = (temperatura * 1.8) + 32;
 const fahrenheintToCelsius = (temperatura - 32) / 1.8;
+const fahrenheintToKelvin = (temperatura - 32) * 5/9 + 273.15;
+const kelvinTofahrenheint = (temperatura - 273.15) * 9/5 + 32;
 
 if (escalaOrigem == "celsius" && escalaDesejada == "kelvin") {
-    return celsiusToKelvin;
+return celsiusToKelvin;
 }
 else if (escalaOrigem == "kelvin" && escalaDesejada == "celsius") {
-    return kelvinToCelsius;
+return kelvinToCelsius;
 }
 else if (escalaOrigem == "celsius" && escalaDesejada == "fahrenheit") {
-    return celsToFahrenheit;
+return celsToFahrenheit;
 }
 else if (escalaOrigem == "fahrenheit" && escalaDesejada == "celsius") {
-    return fahrenheintToCelsius;
+return fahrenheintToCelsius;
+}
+else if (escalaOrigem == "fahrenheit" && escalaDesejada == "kelvin") {
+return fahrenheintToKelvin;
+}
+else if (escalaOrigem == "kelvin" && escalaDesejada == "fahrenheit") {
+return kelvinTofahrenheint;
 }
 }
 
