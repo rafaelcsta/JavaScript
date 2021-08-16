@@ -630,6 +630,26 @@ else if (escalaOrigem == "kelvin" && escalaDesejada == "fahrenheit") {
 return kelvinTofahrenheint;
 }
 }
+--------------------------------------------------------------------------------
+  
+/*
+ * Complete a função 'tripleTheChances' abaixo.
+ *
+ * O retorno da função é uma variável do tipo INTEGER_ARRAY.
+ * A função aceita o parâmetro chances do tipo INTEGER_ARRAY.
+ */
+
+function tripleTheChances(chances) {
+    // Write your code here
+var resultado = [];
+for(var indice = 0; indice < chances.length; indice ++) { 
+resultado.push(chances[indice] * 3)};
+return resultado;
+}
+  
+---------------------------------------------------------------------------------
+
+
 
 ---------------------------------------------------------------
 // https://www.hackerrank.com/interview/interview-preparation-kit?h_l=domains&h_r=hrw&utm_source=hrwCandidateFeedback
