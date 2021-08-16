@@ -1,5 +1,3 @@
-// https://www.hackerrank.com/test/6rq668jq2ii
-// https://www.hackerrank.com/test/e1mtlcjsdnq
 
 ---------------------------------------------------------------------------
 1
