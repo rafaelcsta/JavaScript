@@ -1,7 +1,7 @@
 # JavaScript
 ## conteúdos do curso introdutório da Trybe e cusros fullstack offline
 ### https://app.betrybe.com/freecourse/introducao-ao-javascript
-
+### https://www.youtube.com/playlist?list=PL0m_zkvImj2_brV-ZkgIkLDoB-d2VtDG_
 No console do chrome de uma index.html
 
 ##### Definindo uma variável. (podemos usar var ou let)
